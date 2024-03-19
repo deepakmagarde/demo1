@@ -6,6 +6,7 @@ pipeline {
       stage(build) {
         steps {
             echo "This is build stage"
+            chmod +x ./build.sh
             sh './build.sh'
         }
       }
