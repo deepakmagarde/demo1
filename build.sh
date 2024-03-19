@@ -1,4 +1,4 @@
 #! /bin/bash
 pwd
-ls ltr
+ls -ltr
 mkdir testing
