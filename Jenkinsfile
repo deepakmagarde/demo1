@@ -14,6 +14,7 @@ pipeline {
       stage(test) {
         steps {
             echo "this is test stage"
+            sh "cat './build.sh'"
         }
 
       }
